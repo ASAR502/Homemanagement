@@ -317,7 +317,6 @@ export const apartmentDataList = [
     type: "HOTEL",
     // price: 839.97,
     price: "500,000",
-    price: "500,000",
     location: "3776 Round Branch Road",
     city: "Ontario",
     country: "Canada",

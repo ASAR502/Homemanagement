@@ -7,7 +7,7 @@ const SocketContextProvider = ({ children }) => {
   const { currentUser } = useSelector((store) => store.auth);
 
   useEffect(() => {
-    setSocket(io.connect(`${import.meta.env.VITE_API_BASE_URL}`));
+    // setSocket(io.connect(`${import.meta.env.VITE_API_BASE_URL}`));
   }, []);
   useEffect(() => {
     if (currentUser) {
